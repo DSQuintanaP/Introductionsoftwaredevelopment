@@ -5,11 +5,12 @@ body{
 }
 header{
     background-color: rgb(228, 190, 67);
-    width: 97%;
+    width: 86%;
     z-index: 2;
     text-align: center;
     padding: 20px;
     position: relative;
+    height: auto;
 }
 header h1{
     background-color: white;
@@ -17,9 +18,12 @@ header h1{
     text-align: center;
     
 }
-
+header nav {
+    margin-top: 20px;
+}
 header nav ul{
     list-style-type: none;
+
 }
 header nav ul li{
     display: inline;
@@ -56,18 +60,22 @@ header nav ul li a:hover{
 }
 .Box-A{
     display: flex;
-    background-color: red;
+    background-color: olive;
     border: 2px solid;
     padding: 25px;
     margin-bottom: 10px;
+    margin-top: 10px;
     
 }
 .Box-B{
     display: flex;
-    background-color: blue;
+    background-color: greenyellow;
+    border: 1px solid;
     
 }
-.Box-IMG{
+.Box-B img{
+    height: 200px;
+    width: auto;
     
 }
 section{
@@ -88,7 +96,7 @@ aside{
     width: 200px;
     height: 100%;
     background-color: rgb(228, 190, 67);
-    padding-top: 180px;
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -98,15 +106,19 @@ aside{
     right: 0;
 }
 aside h2{
+    margin-top: 20px;
     background-color: white;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
 aside img{
-
-    width: 100%;
+    margin-top: 10px;
+    width: 70%;
     height: auto;
+    margin-left: 30px;
+   
+
 }
 aside form{
     background-color: white;
@@ -114,6 +126,11 @@ aside form{
 }
 aside form input{
     width: 140px;
+}
+aside form textarea{
+    width: 140px;
+    height: 100px;
+    margin-top: 5px;
 }
 footer{
     text-align: center;

@@ -6,7 +6,7 @@ body{
 header{
     background-color: rgb(228, 190, 67);
     width: 86%;
-    z-index: 2;
+    z-index: 1;
     text-align: center;
     padding: 20px;
     position: relative;
@@ -60,7 +60,7 @@ header nav ul li a:hover{
 }
 .Box-A{
     display: flex;
-    background-color: olive;
+    background-color: rgb(228, 190, 67);
     border: 2px solid;
     padding: 25px;
     margin-bottom: 10px;
@@ -69,7 +69,7 @@ header nav ul li a:hover{
 }
 .Box-B{
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(228, 190, 67);
     border: 1px solid;
     
 }
@@ -99,14 +99,14 @@ aside{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    
+    z-index: 2;
     box-sizing: border-box;
     top: 0;
     bottom: 0;
     right: 0;
 }
 aside h2{
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: white;
     padding: 10px;
     text-align: center;
@@ -133,5 +133,8 @@ aside form textarea{
     margin-top: 5px;
 }
 footer{
+    margin-top: 10px;
+    background-color: rgb(228, 190, 67);
     text-align: center;
+    padding: 20px;
 }
